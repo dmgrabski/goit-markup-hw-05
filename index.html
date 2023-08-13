@@ -55,11 +55,13 @@
     </header>
 
     <main>
-      <section class="hero-image">
+      <section class="section hero-image">
         <div class="container">
           <h1 class="title">Effective Solutions for Your Business</h1>
-          <button data-modal-open type="button" class="hero-button">Order Service</button>
-        </div>  
+          <button data-modal-open type="button" class="hero-button">
+            Order Service
+          </button>
+        </div>
       </section>
       <section class="section">
           <div class="container">
@@ -433,6 +435,17 @@
         </div>
       </div>
     </footer>
+    
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-body">
+        <button data-modal-close type="button" class="modal-close-button">
+          <svg width="8px" height="8px">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
